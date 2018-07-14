@@ -1,4 +1,4 @@
-# plus12
+plus12
 ======
 
 This readme and most of the code are basically copied from Let's Split, which was from from https://github.com/ahtn/tmk_keyboard/
