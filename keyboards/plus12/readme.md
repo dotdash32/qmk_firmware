@@ -148,7 +148,7 @@ The EEPROM is used to store whether the
 half is left handed or right handed. This makes it so that the same firmware
 file will run on both hands instead of having to flash left and right handed
 versions of the firmware to each half. To flash the EEPROM file for the left
-half run:
+half run inside the `plus12` directory:
 ```
 avrdude -p atmega32u4 -P $(COM_PORT) -c avr109 -U eeprom:w:eeprom-lefthand.eep
 // or the equivalent in dfu-programmer
@@ -156,11 +156,13 @@ avrdude -p atmega32u4 -P $(COM_PORT) -c avr109 -U eeprom:w:eeprom-lefthand.eep
 ```
 and similarly for right half
 ```
-avrdude -p atmega32u4 -P $(COM_PORT) -c avr109 -U eeprom:w:eeprom-righhand.eep
+avrdude -p atmega32u4 -P $(COM_PORT) -c avr109 -U eeprom:w:eeprom-righthand.eep
 // or the equivalent in dfu-programmer
 ```
 
 NOTE: replace `$(COM_PORT)` with the port of your device (e.g. `/dev/ttyACM0`)
+I usually find this by flashing the keyboard, and then incrementing the number by one.
+On mac, they often appear as `/dev/tty.usbmodem##` where `##` is a number that increments every time you reset the controller.
 
 After you have flashed the EEPROM, you then need to set `EE_HANDS` in your config.h, rebuild the hex files and reflash.
 
