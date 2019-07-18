@@ -31,11 +31,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* key matrix size */
 // Rows are doubled-up
 #define MATRIX_ROWS 8
-#define MATRIX_COLS 6
+#define MATRIX_COLS 5
 
 // wiring of each half
-#define MATRIX_ROW_PINS { B5, B4, E6, D7 }
-#define MATRIX_COL_PINS { F4, F5, F6, F7, B1, B3 }
+#define MATRIX_ROW_PINS { B1, B3, E2, B6 }
+#define MATRIX_COL_PINS { B5, B4, E6, D7, C6 }
 
 #define CATERINA_BOOTLOADER
 
