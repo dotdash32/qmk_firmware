@@ -1,0 +1,129 @@
+[
+  [
+    {
+      "a": 5
+    },
+    "F1\n\n\n\n\n\nQ",
+    "F2\n\n\n\n\n\nW",
+    "F3\n\n\n\n\n\nE",
+    "F4\n\n\n\n\n\nR",
+    "F5\n\n\n\n\n\nT",
+    {
+      "x": 4
+    },
+    "\npg up\n\n\n\n\nY",
+    "\nhome\n\n\n\n\nU",
+    "_\nup\n\n\n\n\nI",
+    "+\nend\n\n\n\n\nO",
+    "|\nBSPC\n\n\n\n\nP"
+  ],
+  [
+    {
+      "a": 4
+    },
+    "\n\n!\n\n\n\n\n\n1\nA",
+    "\n\n@\n\n\n\n\n\n2\nS",
+    "\n\n#\n\n\n\n\n\n3\nD",
+    "\n\n$\n\n\n\n\n\n4\nF",
+    "\n\n%\n\n\n\n\n\n5\nG",
+    {
+      "x": 4
+    },
+    "\n\n^\n\n\n\n\n\n6\nH\npg dn",
+    "\n\n&\n\n\n\n\n\n7\nJ\nleft",
+    "\n\n*\n\n\n\n\n\n8\nK\ndn",
+    "\n\n(\n\n\n\n\n\n9\nL\nrght",
+    "\n\n)\n\n\n\n\n\n0\n;\n'"
+  ],
+  [
+    {
+      "a": 7
+    },
+    "Z",
+    "X",
+    "C",
+    "V",
+    "B",
+    {
+      "x": 4,
+      "a": 5
+    },
+    "(\n[\n\n\n\n\nN",
+    ")\n]\n\n\n\n\nM",
+    {
+      "a": 4
+    },
+    "\n\n_\n\n\n\n\n\n-\n,",
+    "\n\n+\n\n\n\n\n\n=\n.\nmenu",
+    {
+      "a": 1
+    },
+    "\nEnter\n\n\n\nmenu\n/"
+  ],
+  [
+    {
+      "x": 3,
+      "a": 3
+    },
+    "num\n\n\n\nalt",
+    {
+      "x": 6,
+      "a": 5
+    },
+    "tab\nlctl"
+  ],
+  [
+    {
+      "r": 30,
+      "rx": 4,
+      "ry": 4,
+      "y": -1,
+      "a": 7
+    },
+    "Shft"
+  ],
+  [
+    {
+      "r": 60,
+      "y": -1.5,
+      "x": 0.75,
+      "a": 5
+    },
+    "BSPC\nL-num"
+  ],
+  [
+    {
+      "r": 75,
+      "y": -1.5,
+      "x": 1.5
+    },
+    "\ncmd\n\n\n\n\nctrl"
+  ],
+  [
+    {
+      "r": -75,
+      "rx": 10,
+      "y": -2,
+      "x": -2.5,
+      "a": 1
+    },
+    "esc\nalt\n\n\nesc\nctrl"
+  ],
+  [
+    {
+      "r": -60,
+      "y": -0.5,
+      "x": -1.75,
+      "a": 5
+    },
+    "Enter\nL-num"
+  ],
+  [
+    {
+      "r": -30,
+      "y": -0.5,
+      "x": -1
+    },
+    "Spc\nL-nav"
+  ]
+]
